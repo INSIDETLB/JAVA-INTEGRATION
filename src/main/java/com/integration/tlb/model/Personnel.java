@@ -82,4 +82,22 @@ public class Personnel {
     public void setUpdatetime(Date updatetime) {
         this.updatetime = updatetime;
     }
+
+	public Personnel(Long id, String name, Integer age, Integer sex, String phone, String address, Date createtime,
+			Date updatetime) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+		this.phone = phone;
+		this.address = address;
+		this.createtime = createtime;
+		this.updatetime = updatetime;
+	}
+
+	public Personnel() {
+		
+	}
+    
 }

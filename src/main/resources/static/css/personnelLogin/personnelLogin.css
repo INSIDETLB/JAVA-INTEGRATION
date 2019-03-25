@@ -1,12 +1,14 @@
+body {
+	text-align: center;
+}
+
+* {
+	margin: 0px;
+	padding: 0px
+}
 body{
-	text-align:center;
+	padding-bottom:100%
 }
-
-*{
-	margin:0px;
-	padding:0px
-}
-
-#img{
-	margin:0px auto;
+#img {
+	margin: 0px auto;
 }

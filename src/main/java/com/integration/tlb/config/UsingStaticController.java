@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 public class UsingStaticController extends WebMvcConfigurationSupport {
 	
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/SSOPersonnelLogin/static/**").addResourceLocations("classpath:/static/");
     }
-
+	
 }
